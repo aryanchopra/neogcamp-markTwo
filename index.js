@@ -4,7 +4,7 @@ var playerName = readLineSync.question("Greetings! What is your name?  ");
 
 var score=0;
 
-console.log("Hi "+playerName+", welcome to a quiz of "+chalk.blue.bgWhite("The Office!"));
+console.log("Hi "+playerName+"! Welcome to a quiz of "+chalk.blue.bgWhite("The Office!"));
 console.log("-------------------LEVEL 1-------------------");
 
 var highScores=[{
